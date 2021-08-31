@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>食べ物(Meal)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #E8F6EF;
+        }
+        .container{
+            position: relative;
+            margin-left: 7vw;
+            margin-right: 7vw;
+            width: 85vw;
+            height: 90vh;
+            background-color: white;
+            border: 4px solid #777;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 100%;
+            height: 10%;
+            background-color:darkgreen;
+            color: white;
+            box-sizing: border-box;
+            border-bottom: 2px solid #777;
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+        }
+       .box h3{
+           padding-left: 30px;
+           
+       }
+       .box h3 span{
+           padding-left: 11px;    
+       }
+       .sidebar{
+        position: absolute;
+            background: #fff;
+            top: 10%;
+            width: 60%;
+            height: 90%;
+       }
+       .sidebar p{
+           margin-left: 6%;
+       }
+       .content{
+        position: absolute;
+           background: #fff(214, 127, 127);
+           top: 10%;
+           width: 40%;
+           left: 60%;
+           height: 90%;
+       }
+       .content .imgx{
+           position: relative;
+           top: 10%;
+           left: 15%;
+           width: 250px;
+           height: 180px;
+           border-radius: 10%;
+           overflow: hidden;
+       }
+       .content .imgx img{
+           position: absolute;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
+       .content .imgb{
+        position: relative;
+           top: 20%;
+           left: 15%;
+           width: 250px;
+           height: 180px;
+           border-radius: 10%;
+           overflow: hidden;
+       }
+       .content .imgb img{
+        position: absolute;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Tips For Japan <br><span>食べ物 Meal</span></h3>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li><h4>ラーメン　&nbsp;<span>Ramen</span></h4></li>
+            </ul>
+            <p>&nbsp;&nbsp; Ramen is a Japanese noodle meal. It originated from a Chinese noodle
+                meal, which changed when it came to Japan. Japanese ramen has spread
+                worldwide.
+                There are different kinds of ramen based on the soup flavor. For example,
+                shoyu ramen (soy sauce ramen), shio ramen (salt ramen), and miso ramen. Ramen
+                served in a milky soup made from pork bone broth is known as tonkotsu ramen (pork
+                bone ramen).
+                In different parts of Japan, you can find local variations called gotoochi ramen.
+                For example, Hakata ramen in Fukuoka has thin noodles served in tonkotsu soup.
+                Sapporo ramen in Sapporo, Hokkaido, is often made by adding butter and corn to
+                miso-based soup. Kitakata ramen in Fukushima features thick curly noodles in a
+                light, soy sauce-based soup.</p>
+                <div class="sidebar2">
+                    <ul>
+                        <li><h4>手巻き寿司  &nbsp;&nbsp; <span>Hand-rolled sushi</span></h4></li>
+                    </ul>
+                    <p>&nbsp;&nbsp; Maki-zushi (rolled sushi) is a type of sushi. It is made by putting rice and other ingredients
+                        on top of seaweed, and then rolling everything into a roll. Temaki-zushi (hand-rolled
+                        sushi) is a type of maki-zushi. In this case, the person eating the rolled sushi makes it
+                        themselves.
+                        Temaki-zushi is easy to make, so it is a popular food for home parties. Ingredients
+                        for temaki-zushi are tuna, salmon, shrimp, and other types of seafood. Also, cucumbers,
+                        avocado, fried eggs, kanpyoo (dried gourd shavings), and nattoo (fermented soybeans</p>
+                </div>
+        </div>
+        <div class="content">
+            <div class="imgx"><img src="ramen.jpg" alt=""></div>
+            <div class="imgb"><img src="makizushi.jpg" alt=""></div>
+        </div>
+       
+    </div>
+</body>
+
+</html>
